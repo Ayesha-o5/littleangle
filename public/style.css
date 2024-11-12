@@ -1,0 +1,159 @@
+body{
+    background-color: #fcf7f1;
+}
+
+.nav-div{
+    background-color:#fcf7f1 ;
+    /* padding: -50px; */
+    
+}
+
+.nav-links {
+    flex-grow: 1; /* Allow the nav links to grow and take available space */
+    text-align: center; /* Center the nav links */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+    color: rgba(230, 89, 79, 0.952);
+    
+    
+  
+    
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+    color: rgba(230, 89, 79, 0.952);
+}
+
+.social-icons a:hover {
+    color:black;
+
+    }
+
+   
+
+    .responsive-image {
+        width: 100%;  /* Make the image fill the width of its container */
+        height: auto; 
+       
+    }
+    
+    
+    
+
+.nav-link{
+    margin-left: 15px;
+    color: rgba(230, 89, 79, 0.952);
+
+}
+
+
+ /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    color: #333; 
+}  */
+.section {
+    padding: 40px 20px; /* Add padding */
+    background-color: #ffffff; /* White background for the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px 0; /* Margin between sections */
+    
+}
+
+
+.producthead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h2 {
+    font-size: 2.5rem; /* Larger font size for the main title */
+    color: #e34848; /* Custom color for the title */
+    text-decoration: none;
+}
+h3 {
+    font-size: 1.75rem; /* Font size for subheading */
+    margin-top: 20px; /* Space above subheading */
+}
+h4 {
+    font-size: 1.5rem; /* Font size for smaller headings */
+    margin-top: 15px; /* Space above smaller headings */
+}
+p {
+    font-size: 1rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Improve line spacing */
+}
+.highlight {
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 1.2rem; /* Slightly larger font size */
+}
+.btn-custom {
+    background-color: #e34848; /* Custom button color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+.btn-custom:hover {
+    background-color: #c03939; /* Darker shade on hover */
+}
+
+.section-cover {
+    padding: 20px 0; /* Add some padding */
+    background-color: #e34848; /* Background color */
+    color: #ffffff; /* White text color */
+}
+.store-info {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+.store-info .item {
+    flex: 1 1 200px; /* Allow flexibility, with a minimum width */
+    text-align: center; /* Center align text */
+    margin: 10px; /* Add some margin around items */
+}
+.store-info .item a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent */
+}
+.store-info .item h5 {
+    margin: 10px 0; /* Add margin above and below heading */
+}
+.sub-text p {
+    margin: 0; /* Remove default margin from paragraphs */
+}
+
+.footer {
+    background-color: #f8f9fa; /* Light background */
+    padding: 40px 0;
+}
+/* .footer a {
+    color: #343a40; 
+}
+.footer a:hover {
+    color: #007bff; 
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #343a40; 
+}
+.footer .social-icons a:hover {
+    color: #007bff; 
+} */
